@@ -1,0 +1,79 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  font-size: 0.18rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  background: #393a3f; }
+  .header .head-left {
+    position: absolute;
+    left: .1rem;
+    top: 0rem; }
+  .header .head-right {
+    position: absolute;
+    right: .1rem;
+    top: 0rem; }
+  .header a {
+    color: #fff; }
+  .header .head-cen {
+    padding-left: 20%; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #818d9b; }
+  .content .con-text {
+    width: 90%;
+    height: 4rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: .1rem;
+    padding-bottom: .5rem;
+    /*padding:.5rem 0;*/ }
+    .content .con-text .list {
+      width: 100%;
+      text-align: center;
+      padding-top: .3rem;
+      margin: .5rem 0; }
+      .content .con-text .list dt {
+        width: 1.1rem;
+        height: .4rem;
+        margin: .05rem auto; }
+        .content .con-text .list dt img {
+          width: 100%;
+          height: 100%; }
+    .content .con-text .sjh, .content .con-text .mm {
+      line-height: .4rem;
+      width: 90%;
+      padding: .1rem .2rem;
+      border-bottom: .01rem solid #ccc;
+      box-sizing: border-box;
+      margin: 0 auto; }
+      .content .con-text .sjh img, .content .con-text .sjh .mm, .content .con-text .mm img, .content .con-text .mm .mm {
+        width: 0.1 0.2rem;
+        height: .2rem; }
+    .content .con-text .dl {
+      width: 80%;
+      line-height: .3rem;
+      background: #2fba77;
+      margin: .5rem auto;
+      color: #fff;
+      text-align: center;
+      border-radius: .05rem; }
+
+.footer {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-top: 1px solid #ccc; }
+
+/*# sourceMappingURL=style.css.map */
